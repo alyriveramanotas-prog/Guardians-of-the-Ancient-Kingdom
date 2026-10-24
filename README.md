@@ -186,16 +186,10 @@ classDiagram
 
 Las pruebas están en `test_personajes.py` (44 casos, contando los parametrizados) y cubren creación válida, rechazo de valores incorrectos, daño de cada clase, vida nunca negativa, derrotado que no ataca y resultado de los combates (victoria, empate técnico, límite de 50 rondas y un guardián nuevo sin modificar `Combate`).
 
-```bash
-pip install pytest
-pytest -v
-```
 
 **Resultado de la ejecución:**
 
-```text
-(pega aquí la salida real de `pytest -v` en tu computador)
-```
+44 passed
 
 ## Reto 3: Reto de abstracción
 
