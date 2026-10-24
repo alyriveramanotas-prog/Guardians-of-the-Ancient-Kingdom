@@ -16,10 +16,10 @@ El programa enfrenta a dos guardianes por turnos, aplica las reglas de combate d
 
 ```text
 Guardians-of-the-Ancient-Kingdom/
-├── personajes.py        # Definición de las clases (no ejecuta nada al importarse)
+├── README.md            # Esta documentación
 ├── main.py              # Creación de objetos, demostración y los 12 casos de prueba
-├── test_personajes.py   # Pruebas automatizadas con Pytest (Reto extra 2)
-└── README.md            # Esta documentación
+├── personajes.py        # Definición de las clases (no ejecuta nada al importarse
+└── test_personajes.py   # Pruebas automatizadas con Pytest (Reto extra 2)
 ```
 
 - **`personajes.py`**: contiene `Personaje` (abstracta), `Guerrero`, `Mago`, `Arquero`, `Combate` y la excepción `PersonajeDerrotadoError`. Es el "cómo funciona" del sistema.
